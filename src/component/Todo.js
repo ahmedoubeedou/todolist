@@ -150,11 +150,11 @@ export default function Todos({todo})
         <DialogTitle id="alert-dialog-title">
          Suprimer la Tache
         </DialogTitle>
-        <DialogContent>
-          <DialogContentText id="alert-dialog-description">
-          Suprimer
-          </DialogContentText>
-        </DialogContent>
+        // <DialogContent>
+        //   <DialogContentText id="alert-dialog-description">
+        //   Suprimer
+        //   </DialogContentText>
+        // </DialogContent>
         <DialogActions>
           <Button onClick={heandelDelate} sx={{color:"red"}}>DELATE</Button>
           <Button onClick={arierDelate} sx={{color:"blue"}}>

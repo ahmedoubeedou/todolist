@@ -101,8 +101,8 @@ function aficheTodo(titre)
       </Button>
         </Grid>
         <Grid size={8}>
-    <TextField value={textFile} size='small' onChange={(e)=>{setTextFile(e.target.value)}} sx={{cursor:"pointer",margin:"4px"}} label="Ajouter une taches" variant="outlined" />
-    <TextField value={title} size='small' onChange={(e)=>{setTitle(e.target.value)}} sx={{cursor:"pointer",margin:"4px"}} label="Ajouter un tache" variant="outlined" />
+    <TextField value={textFile} size='small' onChange={(e)=>{setTextFile(e.target.value)}} sx={{cursor:"pointer",margin:"4px"}} label="Titre Tache" variant="outlined" />
+    <TextField value={title} size='small' onChange={(e)=>{setTitle(e.target.value)}} sx={{cursor:"pointer",margin:"4px"}} label="Body Taches" variant="outlined" />
         </Grid>
       </Grid>
           
